@@ -37,7 +37,7 @@ public class VideoGameLabelController {
         //this is to force a save of new item .... instead of update
         theVideoGameLabel.setId(0);
 
-        //This will call the employeeDqoImpl.save method to save a new employee
+        //This will call the employeeDqoImpl.save method to save a new videogame
         videoGameLabelDaoimpl.save(theVideoGameLabel);
         return theVideoGameLabel;
     }
